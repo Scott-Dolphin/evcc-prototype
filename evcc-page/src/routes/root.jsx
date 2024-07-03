@@ -1,12 +1,12 @@
 import Navbar from '../components/navbar'
+import Footer from '../components/footer'
 
 export default function Root() {
   return (
     <>
-      <Navbar />
-      <h1>Home</h1>
-      <br></br>
-      <a href="/about">About</a>
+      <Navbar page_name="East Valley Children's Choir 東安兒童合唱圑" />
+
+      <Footer />
     </>
   );
 }

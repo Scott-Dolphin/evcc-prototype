@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom/client'
 import {
   createBrowserRouter,
   RouterProvider,
+  Link
 } from "react-router-dom"
 import './index.css'
 import Root from "./routes/root"
-import About from "./routes/about"
+import Mission from "./routes/mission"
+import Classes from "./routes/classes"
+import Registration from "./routes/registration"
+import Connect from "./routes/connect"
 
 const router = createBrowserRouter([
   {
@@ -14,8 +18,20 @@ const router = createBrowserRouter([
     element: <Root />,
   },
   {
-    path: "/about",
-    element: <About />,
+    path: "/mission",
+    element: < Mission/>,
+  },
+  {
+    path: "/classes",
+    element: < Classes/>,
+  },
+  {
+    path: "/registration",
+    element: < Registration/>,
+  },
+  {
+    path: "/connect",
+    element: < Connect/>,
   },
 ]);
 
