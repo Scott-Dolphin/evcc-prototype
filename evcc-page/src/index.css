@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fdf0d5;
+  background-color: #2b2d42;
   list-style-type: none;
 }
 
@@ -20,7 +20,7 @@ a {
   padding-bottom: 0em;
 }
 
-.Banner h1 {
+.Banner h1, h2 {
   text-align: center;
   color: #edf2f4;
 }
@@ -54,8 +54,6 @@ a {
   font-size: 2em
 }
 
-
-
 .Banner .Title {
   border: 1px solid white;
   margin-left: 8rem;
@@ -64,7 +62,7 @@ a {
 }
 
 .Footer {
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
@@ -81,4 +79,52 @@ a {
 
 .Footer ul {
   text-align: left;
+}
+
+.Main-content {
+  background-color: #fdf0d5;
+  padding: 14rem;
+  padding-top: 5em;
+  padding-bottom: 20em;
+
+}
+.Calendar {
+  border: 1px solid black;
+  height: 30rem;
+  margin-top: 6em;
+}
+.Calendar .Calendar-title {
+  border: 1px solid black;
+  padding-left: 1em;
+}
+
+
+
+
+.Headshot {
+  border: 1px solid black;
+  height: 20rem;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  padding: 2em;
+}
+/* .Headshot .Headshot-photo {
+  border: 1px solid black;
+
+} */
+.Headshot h1 {
+  color: black;
+  text-align: right;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+.Headshot img {
+  object-fit: contain;
+  width: 340px;
+  height: 340px;
+  border-radius: 100%;
 }

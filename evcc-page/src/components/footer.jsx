@@ -1,4 +1,3 @@
-import ButtonMailto from "../components/mail"
 
 export default function Footer() {
     return (

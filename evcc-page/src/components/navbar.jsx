@@ -17,7 +17,9 @@ export default function Navbar({ page_name, subtitle }) {
                 <div class="Spacer"></div>
                 <div class="Title">
                     <h1>{page_name}</h1>
+                    <h2>{subtitle}</h2>
                 </div>
+
 
             </div>
         </>
