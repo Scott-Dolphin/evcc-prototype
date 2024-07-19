@@ -11,6 +11,8 @@ a {
   color: rgb(27, 88, 200);
 }
 
+/* Banner & Navbar */
+
 .Banner {
   /* border: 1px solid black; */
   background-color: #2b2d42;
@@ -19,7 +21,6 @@ a {
   padding-top: 0em;
   padding-bottom: 0em;
 }
-
 .Banner h1, h2 {
   text-align: center;
   color: #edf2f4;
@@ -28,6 +29,12 @@ a {
   margin-left: 8rem;
   margin-right: 8rem;
   padding: 3em;
+}
+.Banner .Title {
+  border: 1px solid white;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  font-size: 2em;
 }
 
 .Navbar {
@@ -54,12 +61,9 @@ a {
   font-size: 2em
 }
 
-.Banner .Title {
-  border: 1px solid white;
-  margin-left: 8rem;
-  margin-right: 8rem;
-  font-size: 2em;
-}
+
+
+/* Footer */
 
 .Footer {
   /* position: fixed; */
@@ -81,6 +85,8 @@ a {
   text-align: left;
 }
 
+/* beige area */
+
 .Main-content {
   background-color: #fdf0d5;
   padding: 14rem;
@@ -88,6 +94,14 @@ a {
   padding-bottom: 20em;
 
 }
+.Main-content p {
+  text-align: center;
+  font-size: 18px;
+
+}
+
+/* calendar widget */
+
 .Calendar {
   border: 1px solid black;
   height: 30rem;
@@ -98,8 +112,7 @@ a {
   padding-left: 1em;
 }
 
-
-
+/* Photo/description */
 
 .Headshot {
   border: 1px solid black;
@@ -127,4 +140,66 @@ a {
   width: 340px;
   height: 340px;
   border-radius: 100%;
+}
+
+/* Class card */
+
+.Class-card {
+  border:1px solid black;
+  height: 25rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 6em;
+}
+.Hover-container {
+  position: relative;
+  width: 50%;
+}
+.Class-card .Left img {
+  display: block;
+  width: 280px;
+  height: 280px;
+  padding: 4em;
+}
+.Overlay {
+  margin: 4em;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 280px;
+  width: 280px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+.Hover-container:hover .Overlay {
+  opacity: 50%
+}
+.Text p {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Class-card right {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+.Class-card .Descriptions, .Portraits {
+  height: 40%;
+  text-align: right;
+  padding-right: 2em;
+}
+
+.Portraits img {
+  width:20%;
+  padding: 1em
 }
