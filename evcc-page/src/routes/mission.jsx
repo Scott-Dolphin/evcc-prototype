@@ -6,13 +6,11 @@ export default function Mission() {
         <>
             <Navbar page_name="Our Mission" />
             <div class="Main-content">
+                <h1>Mission Statement</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                    East Valley Children's Choir (EVCC) is a community outreach ministry of Evangelical Formosan Church of East Valley (EFC-EV). It's a Christ-centered educational organization serving the communities in east San Gabriel Valley, California. Its mission is to provide a nurturing environment for the local community’s children to learn music, to explore their musical talents and to enjoy the musical arts in a choir setting. An equally important role of EVCC is to encourage the growth of self-discipline, responsibility, teamwork, and self-confidence.                  </p>
                 <br></br>
-                <p>
-                    Porttitor massa id neque aliquam vestibulum morbi blandit. Accumsan lacus vel facilisis volutpat est. Tincidunt ornare massa eget egestas purus viverra accumsan in. Eget felis eget nunc lobortis mattis. Id porta nibh venenatis cras sed felis eget. Sed augue lacus viverra vitae congue eu consequat ac felis. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Turpis massa sed elementum tempus. Libero justo laoreet sit amet cursus. Rhoncus mattis rhoncus urna neque viverra justo. Tellus at urna condimentum mattis. Adipiscing enim eu turpis egestas pretium. Iaculis eu non diam phasellus vestibulum lorem sed risus. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Nisl vel pretium lectus quam id leo in vitae turpis. Facilisi nullam vehicula ipsum a arcu cursus. Sit amet tellus cras adipiscing enim. Sed pulvinar proin gravida hendrerit lectus. Nibh tortor id aliquet lectus.
-                </p>
+                =
             </div>
 
             <Footer />
