@@ -7,7 +7,7 @@ export default function Registration() {
             <Navbar page_name="Registration"/>
             <div class="Main-content">
             <iframe src="https://docs.google.com/forms/d/1dPhC8v62509QEK6vqQq7jft9rgqCnvMoERt3DU8IQgY/viewform"
-                width="1453"
+                width="1263"
                 height="9800"
             
             ></iframe>

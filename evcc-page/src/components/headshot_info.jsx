@@ -8,7 +8,7 @@ export default function Headshot_info({ text, image }) {
                     <img src={head}></img>
                 </div>
                 <div class="Headshot-info">
-                    <h1>{text}</h1>
+                    <h2>{text}</h2>
                 </div>
             </div>
 

@@ -1,7 +1,7 @@
 import head from "../components/images/head.jpg"
 
 
-export default function Class_card({class_name, image, description, portrait_a, portrait_b}) {
+export default function Class_card({ class_name, image, description, instructor, accompianist }) {
     return (
         <>
             <div class="Class-card">
@@ -22,8 +22,15 @@ export default function Class_card({class_name, image, description, portrait_a, 
                         </h1>
                     </div>
                     <div class="Portraits">
-                        <img src={head}/>
-                        <img src={head}/>
+                        <div class="Instructor">
+                            <img src={head} />
+                            <p>{instructor}</p>
+                        </div>
+                        <div class="Instructor">
+                            <img src={head} />
+                            <p>{accompianist}</p>
+                        </div>
+
                     </div>
 
                 </div>
