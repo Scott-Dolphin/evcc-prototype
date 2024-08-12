@@ -44,6 +44,8 @@ a {
   border: 1px solid white;
   width: var(--page-width);
   margin: auto;
+  display: grid;
+  grid-template-columns: 20% 80%;
 }
 .Navbar li {
   display: flex;
@@ -62,6 +64,14 @@ a {
   color: white;
   text-align: center;
   font-size: 2em
+}
+.Navbar .Logo {
+  margin: auto;
+}
+.Navbar .Logo img {
+  /* position: abosolute; */
+  height: 140px;
+  padding: 10px;
 }
 
 
@@ -113,6 +123,12 @@ a {
   text-align: right;
   font-size: 28px;
   color: black;
+}
+.Main-content img {
+  display: block;
+  width: 800px;
+  margin: auto;
+  
 }
 
 
@@ -226,4 +242,7 @@ a {
 
 .Instructor {
   width: 152px;
+}
+.Instructor img {
+  width: 184px;
 }

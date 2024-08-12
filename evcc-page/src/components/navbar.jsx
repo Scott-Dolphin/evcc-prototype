@@ -1,13 +1,13 @@
-
+import logo from "./images/logo.jpg"
 
 export default function Navbar({ page_name, subtitle }) {
     return (
         <>
             <div class="Banner">
                 <div class="Navbar">
+                <a className="Logo" href="/"><img src={logo}/></a>
                     <li>
                         {/* todo: make these into buttons instead of links */}
-                        <ul><a href="/">Logo</a></ul> 
                         <ul><a href="/mission">Mission</a></ul>
                         <ul><a href="/classes">Classes</a></ul>
                         <ul><a href="/registration">Registration</a></ul>

@@ -12,13 +12,13 @@ export default function Classes() {
                  Amet facilisis magna etiam tempor orci eu lobortis." instructor="Heidi Kuo" accompianist="Tsai-Hsio Ko"/>
 
                 <Class_card class_name="B Class" description="Pulvinar elementum integer enim neque volutpat.
-                 Amet facilisis magna etiam tempor orci eu lobortis."/>
+                 Amet facilisis magna etiam tempor orci eu lobortis." instructor="Hsun Hsun" accompianist=""/>
 
                 <Class_card class_name="Vocal Ensemble" description="Pulvinar elementum integer enim neque volutpat.
                  Amet facilisis magna etiam tempor orci eu lobortis."/>
 
                 <Class_card class_name="Parent Choir" description="Pulvinar elementum integer enim neque volutpat.
-                 Amet facilisis magna etiam tempor orci eu lobortis."/>
+                 Amet facilisis magna etiam tempor orci eu lobortis." instructor="Instructor" accompianist="Rebecca Yang"/>
             </div>
             <Footer />
         </>
