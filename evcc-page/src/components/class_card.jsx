@@ -1,11 +1,15 @@
 import head from "../components/images/head.jpg"
 import Hsun_Hsun from "../components/images/people/Hsun_Hsun.jpg"
 import Rebecca_Yang from "../components/images/people/Rebecca_Yang.jpg"
+import May_Fang from "../components/images/people/May_Fang.jpg"
+import Tsai_Hsun_Ko from "../components/images/people/Tsai-Hsun_Ko.jpg"
 
 
 const imageMap = {
     'Hsun_Hsun': Hsun_Hsun,
     'Rebecca_Yang': Rebecca_Yang,
+    'May_Fang': May_Fang,
+    'Tsai-Hsun_Ko': Tsai_Hsun_Ko,
 };
 
 

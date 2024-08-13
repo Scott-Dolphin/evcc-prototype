@@ -13,7 +13,7 @@ export default function Registration() {
 
             <h1>Discounts:</h1>
             <p>Returning students:  -$100</p>
-            <p>New student early bird discount (before 8/4/2024): -$20</p>
+            <p>New student early bird discount (before 9/29/2024): -$20</p>
             <p>Each additional child (new student): -$10</p>
             <br></br>
 
