@@ -11,6 +11,11 @@ import Mission from "./routes/mission"
 import Classes from "./routes/classes"
 import Registration from "./routes/registration"
 import Connect from "./routes/connect"
+import May from "./routes/staff/may_fang"
+import Hsun from "./routes/staff/hsun_hsun"
+import Rebecca from './routes/staff/rebecca_yang'
+import Heidi from './routes/staff/heidi_kuo'
+import Tsai from './routes/staff/tsai-hsun_ko'
 
 const router = createBrowserRouter([
   {
@@ -33,6 +38,27 @@ const router = createBrowserRouter([
     path: "/connect",
     element: < Connect/>,
   },
+  {
+    path:"/staff/may_fang",
+    element: < May/>,
+  },
+  {
+    path:"/staff/hsun_hsun",
+    element: < Hsun/>,
+  },
+  {
+    path:"/staff/rebecca_yang",
+    element: < Rebecca/>,
+  },
+  {
+    path:"/staff/heidi_Kuo",
+    element: < Heidi/>,
+  },
+  {
+    path:"/staff/tsai-hsun_ko",
+    element: < Tsai/>,
+  },
+
 ]);
 
 

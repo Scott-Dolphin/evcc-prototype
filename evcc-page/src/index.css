@@ -65,7 +65,7 @@ a {
   text-align: center;
   font-size: 2em
 }
-.Navbar .Logo {
+  .Navbar .Logo {
   margin: auto;
 }
 .Navbar .Logo img {
@@ -245,4 +245,14 @@ a {
 }
 .Instructor img {
   width: 184px;
+}
+
+.Staff-article {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Staff-text p{
+  font-size: 20px;
+  text-align: left;
 }

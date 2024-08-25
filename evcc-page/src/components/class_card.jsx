@@ -19,6 +19,11 @@ export default function Class_card({ class_name, image, description, instructor=
         const key = name.replace(' ', '_');
         return imageMap[key] || head; // fallback if image not found
     }
+    const getUrl = (name) => {
+        const key = name.replace(' ', '_');
+        const url = '/staff/' + key;
+        return url.toLowerCase();
+    }
 
     return (
         <div className="Class-card">
@@ -39,11 +44,11 @@ export default function Class_card({ class_name, image, description, instructor=
                 <div className="Portraits">
                     <div className="Instructor">
                         <img src={getImage(instructor)} alt={instructor} />
-                        <a>{instructor}</a>
+                        <a href={getUrl(instructor)}>{instructor}</a>
                     </div>
                     <div className="Instructor">
                         <img src={getImage(accompianist)} alt={accompianist} />
-                        <a>{accompianist}</a>
+                        <a href={getUrl(accompianist)}>{accompianist}</a>
                     </div>
                 </div>
             </div>
