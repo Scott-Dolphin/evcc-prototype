@@ -10,7 +10,7 @@ export default function Classes() {
             <div class="Main-content">
 
                 <Class_card class_name="A Class" description="Pulvinar elementum integer enim neque volutpat.
-                 Amet facilisis magna etiam tempor orci eu lobortis."/>
+                 Amet facilisis magna etiam tempor orci eu lobortis." instructor="Saylor Valin" accompianist="Linda Houry"/>
 
                 <Class_card class_name="B Class" description="Pulvinar elementum integer enim neque volutpat.
                  Amet facilisis magna etiam tempor orci eu lobortis." instructor="Heidi Kuo" accompianist="Tsai-Hsun Ko" />
@@ -19,7 +19,7 @@ export default function Classes() {
                  Amet facilisis magna etiam tempor orci eu lobortis." instructor="Hsun Hsun" accompianist="May Fang" />
 
                 <Class_card class_name="Parent Choir" description="Pulvinar elementum integer enim neque volutpat.
-                 Amet facilisis magna etiam tempor orci eu lobortis." instructor="Instructor" accompianist="Rebecca Yang" />
+                 Amet facilisis magna etiam tempor orci eu lobortis." instructor="Esther Fong" accompianist="Rebecca Yang" />
             </div>
             <Footer />
         </>

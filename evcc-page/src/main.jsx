@@ -16,6 +16,9 @@ import Hsun from "./routes/staff/hsun_hsun"
 import Rebecca from './routes/staff/rebecca_yang'
 import Heidi from './routes/staff/heidi_kuo'
 import Tsai from './routes/staff/tsai-hsun_ko'
+import Esther from './routes/staff/esther_fong'
+import Linda from './routes/staff/linda_houry'
+import Saylor from './routes/staff/saylor_valin'
 
 const router = createBrowserRouter([
   {
@@ -58,6 +61,18 @@ const router = createBrowserRouter([
     path:"/staff/tsai-hsun_ko",
     element: < Tsai/>,
   },
+  {
+    path:"/staff/esther_fong",
+    element: < Esther/>,
+  },
+  {
+    path:"/staff/linda_houry",
+    element: <Linda />,
+  },
+  {
+    path:"/staff/saylor_valin",
+    element: < Saylor/>,
+  }
 
 ]);
 
