@@ -13,6 +13,18 @@ export default function Root() {
           <div class="Calendar-title">
             <h1>Upcoming Events</h1>
           </div>
+          <div className="Calendar-content">
+              <div className="Event">
+                <p>hello</p>
+              </div>
+              <div className="Event">
+                <p>hello</p>
+              </div>
+              <div className="Event">
+                <p>hello</p>
+              </div>
+
+            </div>
         </div>
       </div>
       <Footer />

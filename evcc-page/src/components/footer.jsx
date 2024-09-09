@@ -7,7 +7,7 @@ export default function Footer() {
                     <tr>
                         <td>
                             <li>
-                                <ul>Mission</ul>
+                                <ul><a href="/mission">Mission</a></ul>
                                 <ul>Classes</ul>
                                 <ul>Registration</ul>
                                 <ul>Connect</ul>
