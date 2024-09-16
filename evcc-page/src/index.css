@@ -1,11 +1,12 @@
 :root {
   --page-width: 1263px;
+  --text-color: #53215E;
 }
 
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #2b2d42;
+  /* background-color: #2b2d42; */
   list-style-type: none;
 }
 
@@ -18,7 +19,7 @@ a {
 
 .Banner {
   /* border: 1px solid black; */
-  background-color: #2b2d42;
+  /* background-color: #2b2d42; */
   overflow: auto;
   padding: 6rem;
   padding-top: 0em;
@@ -26,12 +27,13 @@ a {
 }
 .Banner h1, h2 {
   text-align: center;
-  color: #edf2f4;
+  color: var(--text-color);
 }
-.Banner .Spacer {
-  margin-left: 8rem;
-  margin-right: 8rem;
-  padding: 3em;
+.Banner .Spacer img {
+  /* object-fit: fill; */
+  width: 1265px;
+  margin: auto;
+  display: block;
 }
 .Banner .Title {
   border: 1px solid white;
@@ -65,6 +67,9 @@ a {
   text-align: center;
   font-size: 2em
 }
+.Navbar ul a {
+  color: var(--text-color);
+}
   .Navbar .Logo {
   margin: auto;
 }
@@ -72,6 +77,12 @@ a {
   /* position: abosolute; */
   height: 140px;
   padding: 10px;
+}
+
+.Banner .Spacer img {
+  /* object-fit: fill; */
+  width: 1265px;
+  margin: auto;
 }
 
 
@@ -84,8 +95,8 @@ a {
   bottom: 0;
   width: 100%;
   height: 20%;
-  background-color: #2b2d42;
-  color: white;
+  /* background-color: #2b2d42; */
+  color: black;
   text-align: center;
   font-size: .75em;
 }
@@ -105,7 +116,7 @@ a {
 /* beige area */
 
 .Main-content {
-  background-color: #fdf0d5;
+  /* background-color: #fdf0d5; */
   padding: 20rem;
   padding-top: 5em;
   padding-bottom: 20em;
@@ -221,7 +232,7 @@ a {
   opacity: 50%
 }
 .Text p {
-  color: white;
+  color: black;
   font-size: 20px;
   position: absolute;
   top: 50%;
